@@ -488,3 +488,85 @@ button:hover {
 .contact-info a:hover {
   color: #ffffff;
 } 
+
+/* ===== GLOBAL FIX ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== CONTAINER FIX ===== */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ===== FLEX FIX (agar use kiya hai) ===== */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* ===== BOX DEFAULT (Laptop) ===== */
+.box {
+  width: 30%;
+}
+
+/* ===== TABLET ===== */
+@media (max-width: 1024px) {
+  .box {
+    width: 48%;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 600px) {
+
+  .container {
+    width: 95%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
