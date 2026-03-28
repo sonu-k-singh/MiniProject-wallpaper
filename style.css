@@ -492,20 +492,3 @@ button:hover {
 
 
 
-@media (max-width: 600px) {
-
-  .container {
-    width: 95%;
-  }
-
-  .form-box {
-    width: 90%;
-    margin: auto;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-  }
-
-}
