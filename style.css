@@ -496,41 +496,12 @@ button:hover {
   .gallery_container {
     grid-template-columns: repeat(2, 1fr);
   }
-  .hero_text h1 {
-    font-size: 35px;
-  }
 }
 
 @media (max-width: 500px) {
   .gallery_container {
     grid-template-columns: 1fr;
   }
-  .hero_text h1 {
-    font-size: 35px;
-  }
+
 }
 
-.hero_text {
-  animation: fadeIn 1.5s ease;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translate(-50%, -60%);
-  }
-  to {
-    opacity: 1;
-    transform: translate(-50%, -50%);
-  }
-}
-
-/* Menu active highlight */
-.sidebar_menu .menu li:hover {
-  background: rgba(255, 255, 255, 0.2);
-  border-left: 4px solid #00d9ff;
-}
-
-html{
-scroll-behavior:smooth;
-}
