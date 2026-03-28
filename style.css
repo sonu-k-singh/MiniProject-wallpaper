@@ -516,9 +516,9 @@ img {
 }
 
 /* ===== BOX DEFAULT (Laptop) ===== */
-.box {
+/* .box {
   width: 30%;
-}
+} */
 
 /* ===== TABLET ===== */
 @media (max-width: 1024px) {
