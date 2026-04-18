@@ -7,7 +7,7 @@ The project replicates the look and feel of Spotify's web player with a clean an
 
 🚀 Live Demo
 
-👉 
+👉 https://mini-project-wallpaper.vercel.app
 
 📌 Features
 
